@@ -12,7 +12,7 @@ app.use(express.json());
 // Middleware for handling CORS policy (allow custom origin)
 app.use(
     cors({
-        origin: 'http://localhost:3000',
+        origin: 'http://localhost:5555',
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type'],
     })
